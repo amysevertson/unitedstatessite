@@ -1,0 +1,15 @@
+@media only screen and (min-width: 34em){
+
+
+h1{
+    margin-top: 35px;
+    font-size: 175%;
+}
+
+#statesList{
+    column-count: 3;
+}
+
+
+
+}
