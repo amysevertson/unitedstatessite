@@ -47,6 +47,87 @@ main{
     text-decoration: underline;
 }
 
+#statesList a:active{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.stateSummary{
+    border: thin solid black;
+}
+
+.stateName{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.overview{
+    max-width: 100%;
+}
+
+legend{
+    padding: 10px;
+}
+
+.imageColumn{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Slideshow container */
+.SlideshowContainer {
+    max-width: 80%;
+    display: block;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .SymbolSlideshow, .ActivitiesSlideshow {
+    display: none;
+    position: relative;
+  }
+
+  .SymbolSlideshow img, .ActivitiesSlideshow img{
+      display: block;
+      margin: auto;
+  }
+
+    /* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+.topCities, .areaCodes, .nationalParks, .touristAttractions{
+    list-style-type: none;
+}
+
 footer{
     color:#e8e8e8;
     font-size: 90%;
