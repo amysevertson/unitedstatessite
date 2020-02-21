@@ -3,7 +3,15 @@
 
 h1{
     margin-top: 50px;
-    font-size: 225%;
+    font-size: 240%;
+}
+
+.buttonstyle{
+    font-size: 24px;
+}
+
+.sidenav a{
+    font-size: 24px;
 }
 
 #statesList{
@@ -19,8 +27,8 @@ h1{
     max-width: 500px;
 }
 
-.imageColumn{
-
+main{
+    font-size: 150%;
 }
 
 
