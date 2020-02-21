@@ -47,6 +47,10 @@ h1{
     transition: 0.3s;
   }
 
+  .sidenav a.active{
+    color: rgb(129, 188, 207);
+}
+
   .sidenav a:nth-child(2){
       padding-top: 75px;
   }
@@ -58,6 +62,8 @@ h1{
   .sidenav a:hover {
     color: #1f8fdf;
   }
+
+  
   
   .sidenav .closebtn {
     position: absolute;
