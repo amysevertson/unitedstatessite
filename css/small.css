@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Overlock+SC&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Assistant:300&display=swap');
+
 
 body{
     margin: 0;
@@ -111,7 +110,7 @@ main{
     text-transform: uppercase;
 }
 
-.stateSummary{
+.stateSummary, .stateSymbol, .stateGeography, .stateAttractions, .stateTrivia{
     border: thin solid black;
 }
 
@@ -128,6 +127,7 @@ main{
 fieldset{
     padding: 20px 50px;
     margin-top: 40px;
+    border-radius: 15px;
 }
 
 legend{
@@ -138,7 +138,9 @@ legend{
     display: block;
     margin: auto;
     padding: 10px;
+    border-radius: 15px;
 }
+
 
 /* Slideshow container */
 .SlideshowContainer {
@@ -157,6 +159,8 @@ legend{
   .SymbolSlideshow img, .ActivitiesSlideshow img{
       display: block;
       margin: auto;
+      width: 80%;
+      border-radius: 15px;
   }
 
     /* Caption text */
@@ -188,12 +192,23 @@ legend{
     to {opacity: 1}
   }
 
-  .footerlink{
+  .weatherstats{
+      background-color: lightblue;
+      border-radius: 15px;
+      padding: 20px;
+      display: block;
+      text-align: center;
+      font-size: 70%;
+  }
+
+  .footerlink, a.footerlink:visited{
       color: whitesmoke;
+      text-decoration: none;
   }
 
   a.footerlink:hover{
-      color: #680909
+      color: #680909;
+      text-decoration: underline;
 }
 
 footer{

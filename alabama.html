@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/small.css">
     <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Overlock+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -86,7 +88,7 @@
     </fieldset>
     </div>
     <div>
-    <fieldset>
+    <fieldset class="stateSymbol">
     <legend>State Symbols</legend>
         <p>Flower: Camellia</p>
         <p>Bird: Yellowhammer</p>
@@ -95,25 +97,25 @@
         <p>Quarter: features Helen Keller with her name written in both English and Braille</p>
     <div class="SlideshowContainer">
         <div class="SymbolSlideshow fade">
-            <img src="./images/alabamaimages/camellia.jpg" alt="Alabama state flower" style="width:80%">
+            <img src="./images/alabamaimages/camellia.jpg" alt="Alabama state flower">
         </div>
         <div class="SymbolSlideshow fade">
-            <img src="./images/alabamaimages/yellowhammer.jpg" alt="Alabama state bird" style="width:80%">
+            <img src="./images/alabamaimages/yellowhammer.jpg" alt="Alabama state bird">
         </div>
         <div class="SymbolSlideshow fade">
-            <img src="./images/alabamaimages/southernlongleafpine.jpg" alt="Alabama state tree" style="width:80%">
+            <img src="./images/alabamaimages/southernlongleafpine.jpg" alt="Alabama state tree">
         </div>
         <div class="SymbolSlideshow fade">
-            <img src="./images/alabamaimages/starbluequartz.jpg" alt="Alabama state gem" style="width:80%">
+            <img src="./images/alabamaimages/starbluequartz.jpg" alt="Alabama state gem">
         </div>
         <div class="SymbolSlideshow fade">
-            <img src="./images/alabamaimages/alabamaquarter.jpg" alt="Alabama state quarter" style="width:80%">
+            <img src="./images/alabamaimages/alabamaquarter.jpg" alt="Alabama state quarter">
         </div>
     </div>
     </fieldset>
     </div>
     <div>
-    <fieldset>
+    <fieldset class="stateGeography">
     <legend>Geography</legend>
         
             <div class="topCities">Top 3 Cities:
@@ -125,10 +127,34 @@
             </div>
         
 
-    Weather: 
-    Birmingham
-    Montgomery
-    Huntsville
+            <div class="weatherstats">
+                <div class="cityName">
+                    <h3>Montgomery, Alabama Weather</h3>
+                    <p>Currently: <span id="currentCondition"></span></p>
+                    <p>Temperature: <span id="current-temp"></span>°F</p>
+                    <p>Humidity: <span id="humidity"></span> % </p>
+                    <p>Wind Speed: <span id="windspeed"></span> MPH</p>
+                    <p>Wind Chill: <span id="chill"></span></p>
+                </div>
+                <div class="cityName">
+                    <h3>Birmingham, Alabama Weather</h3>
+                    <p>Currently: <span id="currentCondition1"></span></p>
+                    <p>Temperature: <span id="current-temp1"></span>°F</p>
+                    <p>Humidity: <span id="humidity1"></span> % </p>
+                    <p>Wind Speed: <span id="windspeed1"></span> MPH</p>
+                    <p>Wind Chill: <span id="chill1"></span></p>  
+                </div>
+                <div class="cityName">
+                    <h3>Huntsville, Alabama Weather</h3>
+                    <p>Currently: <span id="currentCondition2"></span></p>
+                    <p>Temperature: <span id="current-temp2"></span>°F</p>
+                    <p>Humidity: <span id="humidity2"></span> % </p>
+                    <p>Wind Speed: <span id="windspeed2"></span> MPH</p>
+                    <p>Wind Chill: <span id="chill2"></span></p>  
+                </div>
+            </div>
+
+            
 
     <p>Time Zone: Central Time Zone</p>
         <div class="areaCodes">Area Codes:
@@ -151,7 +177,7 @@
     </fieldset>
     </div>
     <div>
-    <fieldset>
+    <fieldset class="stateAttractions">
         <legend>Things To Do</legend>
                 <div class="nationalParks">National parks:
                     <ul>
@@ -182,25 +208,25 @@
                 </div>
             <div class="SlideshowContainer">
                 <div class="ActivitiesSlideshow fade">
-                    <img src="./images/alabamaimages/horseshoebend.jpg" alt="Horseshoebend" style="width:80%">
+                    <img src="./images/alabamaimages/horseshoebend.jpg" alt="Horseshoebend">
                 </div>
                 <div class="ActivitiesSlideshow fade">
-                    <img src="./images/alabamaimages/littlerivercanyon.jpg" alt="Little River Canyon" style= "width:80%">
+                    <img src="./images/alabamaimages/littlerivercanyon.jpg" alt="Little River Canyon">
                 </div>
                 <div class="ActivitiesSlideshow fade">
-                    <img src="./images/alabamaimages/russellcave.jpg" alt="Russell Cave" style="width:80%">
+                    <img src="./images/alabamaimages/russellcave.jpg" alt="Russell Cave">
                 </div>
                 <div class="ActivitiesSlideshow fade">
-                    <img src="./images/alabamaimages/spaceandrocket.jpg" alt="Space and Rocket Center" style= "width:80%">
+                    <img src="./images/alabamaimages/spaceandrocket.jpg" alt="Space and Rocket Center">
                 </div>
                 <div class="ActivitiesSlideshow fade">
-                    <img src="./images/alabamaimages/battleshipmemorialpark.jpg" alt="Battleship Memorial Park" style= "width:80%">
+                    <img src="./images/alabamaimages/battleshipmemorialpark.jpg" alt="Battleship Memorial Park">
                 </div>
             </div>
     </fieldset>
     </div>
     <div> 
-    <fieldset>
+    <fieldset class="stateTrivia">
         <legend>Trivia</legend>
             <div class="funFacts">Fun Facts:
                 <ul>
@@ -248,5 +274,8 @@
 <script src="./js/symbolslideshow.js"></script>
 <script src="./js/activitiesslideshow.js"></script>
 <script src="./js/navigation.js"></script>
+<script src="./js/weather.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="./js/webfont.js"></script>
 </body>
 </html>
