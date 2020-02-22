@@ -83,7 +83,6 @@ h1{
 
 main{
     padding: 20px;
-    margin: 50px;
     font-family: "Assistant", sans-serif;
     font-size: 100%;
 }
@@ -110,24 +109,18 @@ main{
     text-transform: uppercase;
 }
 
-.stateSummary, .stateSymbol, .stateGeography, .stateAttractions, .stateTrivia{
-    border: thin solid black;
-}
-
 .stateName{
     text-transform: uppercase;
     text-align: center;
     padding: 8px 0 20px 0;
 }
 
-.overview{
-    max-width: 100%;
-}
 
 fieldset{
     padding: 20px 50px;
     margin-top: 40px;
     border-radius: 15px;
+    border: thin solid black;
 }
 
 legend{
