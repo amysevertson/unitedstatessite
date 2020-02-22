@@ -127,6 +127,10 @@ legend{
     padding: 10px;
 }
 
+#currentCondition{
+    text-transform: capitalize;
+}
+
 .imageColumn{
     display: block;
     margin: auto;
@@ -187,12 +191,16 @@ legend{
   }
 
   .weatherstats{
-      background-color: lightblue;
-      border-radius: 15px;
-      padding: 20px;
       display: block;
       text-align: center;
       font-size: 70%;
+  }
+
+  .cityName{
+    background-color: rgb(129, 188, 207);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
   }
 
   .footerlink, a.footerlink:visited{
