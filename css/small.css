@@ -127,7 +127,7 @@ legend{
     padding: 10px;
 }
 
-#currentCondition{
+.weatherstats:nth-child(3){
     text-transform: capitalize;
 }
 
@@ -200,7 +200,7 @@ legend{
     background-color: rgb(129, 188, 207);
     border-radius: 15px;
     padding: 5px;
-    margin: 10px;
+    margin: 25px;
   }
 
   .footerlink, a.footerlink:visited{
