@@ -7,15 +7,29 @@ h1{
 }
 
 .buttonstyle{
-    font-size: 24px;
+    font-size: 20pt;
+    bottom: 12%;
+}
+
+.sidenav, .closebtn{
+    font-size: 36pt;
 }
 
 .sidenav a{
-    font-size: 24px;
+    font-size: 18pt;
+    padding: 5% 10%;
 }
 
 #statesList{
     column-count: 5;
+}
+
+.stateName{
+    font-size: 30pt;
+}
+
+#pageSections{
+    font-size: 14pt;
 }
 
 .stateImages{

@@ -1,18 +1,18 @@
-
-
-body{
+body,html{
+    height: 100%;
     margin: 0;
-    background-color: #e8e8e8;
 }
 
-header, footer{
+header{
     background-color: #254e70;
     max-width: 100%;
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 2%;
     position: relative;
+    margin-bottom: -5%;
 }
+
 
 h1{
     font-family: "Overlock SC", cursive;
@@ -20,7 +20,7 @@ h1{
     color: #e8e8e8;
     display: flex;
     flex-direction: column;
-    padding-bottom: 30px;
+    padding-bottom: 3%;
 }
 
 .sidenav {
@@ -34,13 +34,13 @@ h1{
     box-shadow: 5px 0 5px rgba(0,0,0,0.4);
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 2px;
+    padding-top: 3%;
   }
   
-  .sidenav a {
+  .sidenav a, .sidenav a:visited{
     padding: 10px 25px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14pt;
     color: whitesmoke;
     display: block;
     transition: 0.3s;
@@ -51,7 +51,7 @@ h1{
 }
 
   .sidenav a:nth-child(2){
-      padding-top: 75px;
+      padding-top: 3%;
   }
 
   .sidenav a:last-child{
@@ -62,36 +62,55 @@ h1{
     color: #1f8fdf;
   }
 
-  
-  
+  .sidenav a:active{
+      color: #1f8fdf;
+      text-decoration: underline;
+  }
+
   .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    right: 3%;
+    font-size: 24pt;
+    margin-left: 8%;
   }
 
   .buttonstyle{
-    font-size:18px;
+    font-size:12pt;
     cursor:pointer;
     position:absolute;
-    bottom:25px;
+    bottom: 10%;
     color: whitesmoke;
   }
   
 
 main{
-    padding: 30px;
+   margin: auto;
     font-family: "Assistant", sans-serif;
     font-size: 100%;
+    color: #211676;
 }
+
+.BackgroundImage{
+    background: url("../images/stripesbackground.png");
+    background-size: contain;
+    min-height: 100%;
+    height: auto;
+    min-width: 100%;
+    background-position: fixed;
+    
+  
+}
+
+/*    background: url("../images/AmericanFlag.png") no-repeat .025;
+    background-size: contain;
+    opacity: .025;*/
 
 #statesList{
     column-count: 2;
 }
 
-#statesList a{
+#statesList a, #statesList a:visited{
     color: rgb(8, 8, 88);
     text-decoration: none;
     display: block;
@@ -112,15 +131,24 @@ main{
 .stateName{
     text-transform: uppercase;
     text-align: center;
-    padding: 8px 0 20px 0;
+    font-size: 24pt;
+    font-weight: bolder;
+    padding-top: 7%;
+}
+
+#pageSections{
+    text-align: center;
+    font-size: 12pt;
+   padding: 5%;
 }
 
 
 fieldset{
     padding: 20px 50px;
-    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
     border-radius: 15px;
-    border: thin solid black;
+    border: thin solid #211676;
 }
 
 legend{
@@ -157,19 +185,8 @@ legend{
   .SymbolSlideshow img, .ActivitiesSlideshow img{
       display: block;
       margin: auto;
-      width: 100%;
-      border-radius: 15px;
-  }
-
-    /* Caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
+      width: 80%;
+      border-radius: 3%;
   }
 
   /* Fading animation */
@@ -198,10 +215,14 @@ legend{
 
   .cityName{
     background-color: rgb(129, 188, 207);
-    border-radius: 15px;
-    padding: 5px;
-    margin: 25px;
+    border-radius: 3%;
+    padding: 2%;
+    margin: 6%;
   }
+
+ .trivia{
+     padding-bottom: 5%;
+ }
 
   .footerlink, a.footerlink:visited{
       color: whitesmoke;
@@ -209,11 +230,24 @@ legend{
   }
 
   a.footerlink:hover{
-      color: #680909;
-      text-decoration: underline;
+      color: rgb(153,11,11);
+}
+
+a.footerlink:active{
+    color:rgb(153, 11, 11);
+    text-decoration: underline;
 }
 
 footer{
     color:#e8e8e8;
     font-size: 90%;
+    background-color: #254e70;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    position: relative;
 }
+
+
+

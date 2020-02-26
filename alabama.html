@@ -71,10 +71,12 @@
       
 </header>
 <main>
+    <div class="BackgroundImage">
     <h2 class="stateName">Alabama</h2>
+    <h3 id="pageSections">Go to: <a href="#stateOverview">State Overview</a> | <a href="#stateSymbols">State Symbols</a> | <a href="#stateGeography">State Geography</a> | <a href="#stateAttractions">State Attractions</a> | <a href="#stateTrivia">State Trivia</a></h3>
     <div class="overview">
-    <fieldset class="stateSummary">
-        <legend>Summary Overview</legend> 
+    <fieldset id="stateOverview">
+        <legend>State Overview</legend> 
             <p>Capital: Montgomery</p>
             <p>Abbreviation: AL</p>
             <p>Nickname: Yellowhammer State</p>
@@ -87,8 +89,8 @@
             </div>
     </fieldset>
     </div>
-    <div>
-    <fieldset class="stateSymbol">
+    <div class="symbols">
+    <fieldset id="stateSymbols">
     <legend>State Symbols</legend>
         <p>Flower: Camellia</p>
         <p>Bird: Yellowhammer</p>
@@ -114,8 +116,8 @@
     </div>
     </fieldset>
     </div>
-    <div>
-    <fieldset class="stateGeography">
+    <div class="geography">
+    <fieldset id="stateGeography">
     <legend>Geography</legend>
         
             <div class="topCities">Top 3 Cities:
@@ -176,8 +178,8 @@
     <p>Electoral Votes: 9 votes</p>
     </fieldset>
     </div>
-    <div>
-    <fieldset class="stateAttractions">
+    <div class="attractions">
+    <fieldset id="stateAttractions">
         <legend>Things To Do</legend>
                 <div class="nationalParks">National parks:
                     <ul>
@@ -225,8 +227,8 @@
             </div>
     </fieldset>
     </div>
-    <div> 
-    <fieldset class="stateTrivia">
+    <div class="trivia"> 
+    <fieldset id="stateTrivia">
         <legend>Trivia</legend>
             <div class="funFacts">Fun Facts:
                 <ul>
@@ -270,12 +272,13 @@
             </div>
     </fieldset>
     </div>
+</div>
 </main>
 <footer><a class="footerlink" href="https://openweathermap.org/">openweathermap.org</a></footer>
 <script src="./js/symbolslideshow.js"></script>
 <script src="./js/activitiesslideshow.js"></script>
 <script src="./js/navigation.js"></script>
-<script src="./js/alabamaweather.js"></script>
+<script src="./js/weather.js" cityOne="4049979" cityTwo="4076795" cityThree="4068590"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="./js/webfont.js"></script>
 </body>

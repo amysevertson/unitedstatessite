@@ -1,6 +1,6 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4049979&units=imperial&APPID=ac4a7c570cce008087083e285058e1e6";
+// const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4049979&units=imperial&APPID=ac4a7c570cce008087083e285058e1e6";
 
-fetch(apiURL)
+fetch("https://api.openweathermap.org/data/2.5/weather?id=" + document.currentScript.getAttribute("cityOne") + "&units=imperial&APPID=ac4a7c570cce008087083e285058e1e6")
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
@@ -32,9 +32,9 @@ fetch(apiURL)
 
     });     
 
-    const apiURL2 = "https://api.openweathermap.org/data/2.5/weather?id=4076795&units=imperial&APPID=ac4a7c570cce008087083e285058e1e6";
+    // const apiURL2 = "https://api.openweathermap.org/data/2.5/weather?id=4076795&units=imperial&APPID=ac4a7c570cce008087083e285058e1e6";
 
-    fetch(apiURL2)
+    fetch("https://api.openweathermap.org/data/2.5/weather?id=" + document.currentScript.getAttribute("cityTwo") + "&units=imperial&APPID=ac4a7c570cce008087083e285058e1e6")
         .then((response) => response.json())
         .then((jsObject) => {
             console.log(jsObject);
@@ -66,9 +66,9 @@ fetch(apiURL)
     
         });
 
-        const apiURL3 = "https://api.openweathermap.org/data/2.5/weather?id=4068590&units=imperial&APPID=ac4a7c570cce008087083e285058e1e6";
+        //const apiURL3 = "https://api.openweathermap.org/data/2.5/weather?id=4068590&units=imperial&APPID=ac4a7c570cce008087083e285058e1e6";
 
-        fetch(apiURL3)
+        fetch("https://api.openweathermap.org/data/2.5/weather?id=" + document.currentScript.getAttribute("cityThree") + "&units=imperial&APPID=ac4a7c570cce008087083e285058e1e6")
             .then((response) => response.json())
             .then((jsObject) => {
                 console.log(jsObject);
