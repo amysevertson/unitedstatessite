@@ -56,7 +56,11 @@ main{
 }
 
 a.footerlink:hover{
-    color: #680909;
+    color: rgb(153, 11, 11);
+}
+
+a.footerlink:active{
+    color: rgb(153, 11, 11);
     text-decoration: underline;
 }
 
