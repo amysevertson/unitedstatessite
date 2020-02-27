@@ -8,17 +8,34 @@ header, footer{
     max-width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 15px;
     position: relative;
 }
 
+#starLayer{
+    text-align: justify;
+    width: 100%;
+    color: white;
+    font-size: 18pt;
+    padding-top: 7%;
+    margin: 0 10%;
+}
+
+#starLayer:after{
+    content:"";
+    display: inline-block;
+    width: 100%;
+}
+
 h1{
     font-family: "Overlock SC", cursive;
-    font-size: 150%;
+    font-size: 20pt;
     color: #e8e8e8;
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 

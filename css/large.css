@@ -1,9 +1,11 @@
 @media only screen and (min-width: 52em){
 
+    #starLayer{
+        font-size: 24pt;
+    }
 
 h1{
-    margin-top: 50px;
-    font-size: 240%;
+    font-size: 30pt;
 }
 
 .buttonstyle{
@@ -20,12 +22,8 @@ h1{
     padding: 5% 10%;
 }
 
-#statesList{
-    column-count: 5;
-}
-
 .stateName{
-    font-size: 30pt;
+    font-size: 34pt;
 }
 
 #pageSections{

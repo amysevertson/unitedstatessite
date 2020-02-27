@@ -7,19 +7,33 @@ header{
     background-color: #254e70;
     max-width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 2%;
     position: relative;
 }
 
+#starLayer{
+    text-align: justify;
+    width: 100%;
+    color: white;
+    font-size: 18pt;
+    padding-top: 7%;
+    margin: 0 10%;
+}
+
+#starLayer:after{
+    content:"";
+    display: inline-block;
+    width: 100%;
+}
 
 h1{
     font-family: "Overlock SC", cursive;
-    font-size: 150%;
+    font-size: 20pt;
     color: #e8e8e8;
     display: flex;
     flex-direction: column;
-    padding-bottom: 3%;
+    padding-bottom: 7%;
     text-align: center;
 }
 
@@ -105,30 +119,8 @@ main{
     background-position: fixed; 
 }
 
-/*    background: url("../images/AmericanFlag.png") no-repeat .025;
-    background-size: contain;
-    opacity: .025;*/
-
-#statesList{
-    column-count: 2;
-}
-
-#statesList a, #statesList a:visited{
-    color: rgb(8, 8, 88);
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    padding: 5px;
-}
-
-#statesList a:hover{
-    color:#982649;
-    text-decoration: underline;
-}
-
-#statesList a:active{
-    font-weight: bolder;
-    text-transform: uppercase;
+.overview, .symbols, .geography, .attractions{
+    padding-bottom: 5%;
 }
 
 .stateName{
@@ -143,7 +135,7 @@ main{
 #pageSections{
     text-align: center;
     font-size: 12pt;
-   padding: 5%;
+   padding: 2%;
 }
 
 #pageSections a, #pageSections a:visited{
@@ -171,6 +163,7 @@ fieldset{
 
 legend{
     padding: 10px;
+    font-weight: bolder;
 }
 
 .weatherstats:nth-child(3){
@@ -183,6 +176,10 @@ legend{
     padding: 10px;
     border-radius: 15px;
     max-width: 100%;
+}
+
+.imageColumn img{
+    width: 60%;
 }
 
 
@@ -203,7 +200,7 @@ legend{
   .SymbolSlideshow img, .ActivitiesSlideshow img{
       display: block;
       margin: auto;
-      width: 80%;
+      width: 70%;
       border-radius: 3%;
   }
 
