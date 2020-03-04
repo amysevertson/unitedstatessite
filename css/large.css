@@ -48,6 +48,14 @@ main{
     grid-template-columns: 33.3% 33.3% 33.3%;
 }
 
+fieldset{
+    margin: 0 60px;
+}
+
+.pageTop{
+    padding-right: 70px;
+}
+
 footer{
     font-size: 120%;
 }

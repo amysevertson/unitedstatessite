@@ -35,6 +35,8 @@ h1{
     flex-direction: column;
     padding-bottom: 7%;
     text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .sidenav {
@@ -120,10 +122,10 @@ main{
 }
 
 .overview, .symbols, .geography, .attractions{
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
-.stateName{
+#stateName{
     text-transform: uppercase;
     text-align: center;
     font-size: 24pt;
@@ -138,25 +140,24 @@ main{
    padding: 2%;
 }
 
-#pageSections a, #pageSections a:visited{
+#pageSections a, #pageSections a:visited, .pageTop a, .pageTop a:visited{
     text-decoration: none;
     color: #0f1a58;
 }
 
-#pageSections a:hover{
+#pageSections a:hover, .pageTop a:hover{
     color: rgba(207, 1, 1, 0.993);
     text-transform: uppercase;
 }
 
-#pageSections a:active{
+#pageSections a:active, .pageTop a:active{
 text-decoration: underline;
 }
 
 
 fieldset{
     padding: 20px 50px;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin: 20px 40px;
     border-radius: 15px;
     border: thin solid #211676;
 }
@@ -166,22 +167,22 @@ legend{
     font-weight: bolder;
 }
 
+.pageTop{
+    text-align: right;
+    padding-right: 50px;
+}
+
 .weatherstats:nth-child(3){
     text-transform: capitalize;
 }
 
-.imageColumn{
+.stateImages img{
     display: block;
-    margin: auto;
-    padding: 10px;
+    margin: 20px auto;
     border-radius: 15px;
-    max-width: 100%;
+    max-width: 70%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
-
-.imageColumn img{
-    width: 60%;
-}
-
 
 /* Slideshow container */
 .SlideshowContainer {
@@ -202,6 +203,7 @@ legend{
       margin: auto;
       width: 70%;
       border-radius: 3%;
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
   }
 
   /* Fading animation */
