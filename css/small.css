@@ -104,6 +104,7 @@ h1{
       transform: scale(1.1);
   }
   
+  
 
 main{
    margin: auto;
@@ -186,6 +187,7 @@ legend{
     border-radius: 15px;
     max-width: 70%;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    border: solid #0f1a58 1px;
 }
 
 .touristAttractions, .symbolsList{
@@ -212,6 +214,7 @@ legend{
       width: 90%;
       border-radius: 3%;
       box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+      border: solid #0f1a58 1px;
   }
 
   /* Fading animation */
