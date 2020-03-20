@@ -259,6 +259,24 @@ legend{
      padding-bottom: 5%;
  }
 
+ .stateSonglink{
+     text-decoration: none;
+     font-weight: bolder;
+     color:#0f1a58;
+ }
+
+ a.stateSonglink:visited{
+     color: #0f1a58;
+ }
+
+ a.stateSonglink:hover{
+    color:rgb(153,11,11); 
+ }
+
+ a.stateSonglink:active{
+     text-decoration: underline;
+ }
+
   .footerlink, a.footerlink:visited{
       color: whitesmoke;
       text-decoration: none;
