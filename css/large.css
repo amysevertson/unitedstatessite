@@ -22,6 +22,12 @@ h1{
     padding: 5% 10%;
 }
 
+#myBtn {
+    padding: 16px;
+    font-size: 16px;
+    right: 20px;
+}
+
 #stateName{
     font-size: 32pt;
 }
@@ -31,12 +37,13 @@ h1{
 }
 
 .stateImages{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
 }
 
 .stateImages img{
-    margin: 10px 20px;
+    max-width: 70%;
+   display: block;
 }
 
 .SlideshowContainer{
@@ -61,8 +68,9 @@ fieldset{
     margin: 0 60px;
 }
 
-.pageTop{
-    padding-left: 70px;
+.SymbolSlideshow img, .ActivitiesSlideshow img{
+    max-width: 90%;
+    height: 250px;
 }
 
 footer{
